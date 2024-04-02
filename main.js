@@ -5,7 +5,10 @@
 // Display welcomeMessage using console.log().
 
 
-
+var name = 'Lexie';
+var greeting = 'Hello, ';
+var welcomeMessage = greeting+name;
+console.log(welcomeMessage)
 
 // Exercise 2
 // Declare a variable, temperatureC, and assign it a numeric value representing the current temperature in Celsius.
@@ -13,6 +16,14 @@
 // Write an if statement to check if the temperature is greater than 80 degrees fahrenheit.
 // If it is, display a message saying "It's a hot day!" using console.log(). Otherwise, display "It's not too hot today."
 
+var temperateC = 40;
+var temperatureF = temperateC*1.8 + 32;
+
+if(temperatureF >= 80){
+    console.log("It's a hot day!")
+} else {
+    console.log("It's not too hot today.")
+};
 
 
 // Exercise 3
@@ -20,4 +31,8 @@
 // Use a while loop to display the value of count by 5s in the console until it reaches 50.
 // Increment the value of count by 5 within the loop.
 
-
+var count = 0;
+while(count < 50){
+        count += 5
+        console.log(count)
+}
